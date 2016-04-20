@@ -16,7 +16,7 @@
                           <a href="#">Фото и видео</a>
                       </li>                      
                       <li>
-                          <img src="№" width="137" height="70" alt="Седона-лого">
+                          <a class="link" href="index.html"><img src="№" width="137" height="70" alt="Седона-лого"></a>
                       </li>
                       <li>
                           <a href="#">Карта штата</a>
@@ -65,8 +65,19 @@
                   </label>
                 
                   <p class="filters">Стоимость в сутки (Р):</p>
-                  <span>от 0</span> 
-                  <span>до 3000</span>
+                  <div class="range-filter">
+                      <div class="price-controls">
+                          от <input class="min-price" type="text" value="0">
+                          до <input class="max-price" type="text" value="30 000">
+                      </div>
+                      <div class="range-controls">
+                          <div class="scale">
+                              <div sclass="bar"></div>
+                          </div>
+                          <div class="toggle min-toggle"></div>
+                          <div class="toggle max-toggle"></div>
+                      </div>            
+                  </div>
                 
                   <input class="btn" type="submit" value="Показать">
               </form>
@@ -117,13 +128,19 @@
       
       <footer class="catalog-footer">
           <div class="container">
-              <a href="#">#Visitsedona</a>
-              <a class="social-btn social-btn-twiter" href="#">Твитер</a>
-              <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-              <a class="social-btn social-btn-youtube" href="#">Ютуб</a>            
-              <p>Website by</p>
-              <a class="logo" href="htmlacademy.ru"><img src="#" width="" height="" alt="html-logo"></a>
+              <div class="footer-item">
+                  <a href="#">#Visitsedona</a>
+              </div>
+              <div class="footer-item">
+                  <a class="social-btn social-btn-twiter" href="#">Твитер</a>
+                  <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                  <a class="social-btn social-btn-youtube" href="#">Ютуб</a>
+              </div>
+              <div class="footer-item">
+                  <p>Website by</p>
+                  <a class="logo" href="htmlacademy.ru"><img src="#" width="" height="" alt="html-logo"></a>
+              </div>    
           </div>    
-      </footer>    
+      </footer>        
   </body>
 </html>
