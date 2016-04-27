@@ -3,7 +3,7 @@ body {
     line-height: 21px;
     color: #000000;
     font-weight: normal;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
     line-height: 21px;
     color: #000000;
     font-weight: bold;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
 }
 
 h2 {
@@ -19,5 +19,114 @@ h2 {
     line-height: 21px;
     color: #000000;
     font-weight: bold;
-    font-family: "PT Sans";
+    font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.main-header {
+    background-color: antiquewhite;
+}
+
+.container {
+   background-color: aquamarine; 
+   width: 1200px;
+   margin: 0 auto;
+}
+
+.main-navigation {
+    background-color: coral;
+}
+
+.first-screen {
+    background-color: aqua;
+    height: 508px;
+}
+
+
+.description {
+    background-color: azure;
+    
+}
+
+.first-reason {
+    height: 256px;    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.first-reason-text {
+    background-color: darkkhaki;
+    float: left;
+    width: 400px;
+    height: 256px;
+}
+
+.first-reason-photo {
+    background-color: darkturquoise;
+    float: right;
+    width: 800px;
+    height: 256px;
+}
+
+.features {
+    background-color: #61b58b;
+}
+
+.features-item {
+    float: left;
+    width: 400px;
+}
+
+.second-reason-photo {
+    background-color: darkkhaki;
+    float: left;
+    width: 800px;
+    height: 256px;
+}
+
+.second-reason-text {
+    background-color: darkturquoise;
+    float: right;
+    width: 400px;
+    height: 256px;
+}
+
+.interest {
+    background-color: azure;
+    
+}
+
+.search-form {
+    background-color: darksalmon;
+    width: 568px;
+    height: 482px;
+    margin: 0 auto;
+}
+
+.map {
+    
+}
+
+.footer-hashtag {
+    background-color: deepskyblue;
+    float: left;
+    width: 400px;
+    
+}
+
+.footer-social {
+    background-color: darksalmon;
+    float: left;
+    width: 400px;
+    
+}
+
+.footer-copyright {
+    background-color: darkgrey;
+    float: right;
+    width: 400px;
+    
 }
