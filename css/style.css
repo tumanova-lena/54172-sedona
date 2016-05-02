@@ -1,9 +1,11 @@
 body {
+    width: 1200px;
     font-size: 14px;
     line-height: 21px;
     color: #000000;
     font-weight: normal;
     font-family: "PT Sans", "Arial", sans-serif;
+    margin: 0 auto;
 }
 
 h1 {
@@ -22,21 +24,20 @@ h2 {
     font-family: "PT Sans", "Arial", sans-serif;
 }
 
-ul {
-    font-size: 0;
-}
-
-li {
-    display: inline-block;
+.left-nav {
     width: 20%;
-    vertical-align: top;
-    font-size: 14px;
+    float: left;
 }
 
-.image-logo {
-    position: absolute;
-    top: 0px;
-    width: 138px;   
+.right-nav {
+    width: 20%;
+    float: right;
+}
+
+.image-logo {    
+    width: 138px;
+    height: 70px;
+    margin: 0 auto;
 }
 
 .main-header {
@@ -46,8 +47,11 @@ li {
 
 .container {
    background-color: aquamarine; 
-   width: 1200px;
-   margin: 0 auto;   
+   margin: 0 auto;      
+}
+
+.container nav {
+    padding: 0 6%;
 }
 
 .main-navigation {
@@ -59,7 +63,6 @@ li {
     background-color: aqua;
     height: 508px;
 }
-
 
 .description {
     background-color: azure;
@@ -86,7 +89,7 @@ li {
 
 .first-reason-photo {
     background-color: darkturquoise;
-    float: right;
+    float: left;
     width: 66.666%;
     height: 256px;
 }
@@ -109,7 +112,7 @@ li {
 
 .second-reason-text {
     background-color: darkturquoise;
-    float: right;
+    float: left;
     width: 33.333%;
     height: 256px;
 }
