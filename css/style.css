@@ -24,6 +24,10 @@ h2 {
     font-family: "PT Sans", "Arial", sans-serif;
 }
 
+ul {
+    margin: 0;
+}
+
 .left-nav {
     width: 20%;
     float: left;
@@ -34,38 +38,38 @@ h2 {
     float: right;
 }
 
-.image-logo {    
+.image-logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
     width: 138px;
     height: 70px;
-    margin: 0 auto;
+    margin-left: -70px;
 }
 
 .main-header {
-    background-color: antiquewhite;
-    height: 56px;
+    outline: 1px dashed red;
+    min-height: 56px;
 }
 
 .container {
-   background-color: aquamarine; 
-   margin: 0 auto;      
-}
-
-.container nav {
-    padding: 0 6%;
+   position: relative;    
+   outline: 1px dashed; 
+/*   padding: 0 6%;        */
 }
 
 .main-navigation {
-    background-color: coral;
+    outline: 1px dashed;
     height: 56px;
 }
 
 .first-screen {
-    background-color: aqua;
+    outline: 1px dashed;
     height: 508px;
 }
 
 .description {
-    background-color: azure;
+    outline: 1px dashed;
     padding-top: 1px;
     padding-bottom: 1px;    
 }
@@ -81,21 +85,21 @@ h2 {
 }
 
 .first-reason-text {
-    background-color: darkkhaki;
+    outline: 1px dashed;
     float: left;
     width: 33.333%;
     height: 256px;
 }
 
 .first-reason-photo {
-    background-color: darkturquoise;
+    outline: 1px dashed;
     float: left;
     width: 66.666%;
     height: 256px;
 }
 
 .features {
-    background-color: #61b58b;
+    outline: 1px dashed;
 }
 
 .features-item {
@@ -104,27 +108,27 @@ h2 {
 }
 
 .second-reason-photo {
-    background-color: darkkhaki;
+    outline: 1px dashed;
     float: left;
     width: 66.666%;
     height: 256px;
 }
 
 .second-reason-text {
-    background-color: darkturquoise;
+    outline: 1px dashed;
     float: left;
     width: 33.333%;
     height: 256px;
 }
 
 .interest {
-    background-color: azure;
+    outline: 1px dashed;
     padding-top: 1px;
     padding-bottom: 1px;    
 }
 
 .search-form {
-    background-color: darksalmon;
+    outline: 1px dashed;
     width: 568px;
     height: 482px;
     margin: 0 auto;   
@@ -140,25 +144,25 @@ label {
 }
 
 .footer {
-   height: 120px;     
+   height: 120px;       
 }
 
 .footer-hashtag {
-    background-color: deepskyblue;
+    outline: 1px dashed;
     float: left;
     width: 400px;
     height: 120px;    
 }
 
 .footer-social {
-    background-color: darksalmon;
+    outline: 1px dashed;
     float: left;
     width: 400px;
     height: 120px;    
 }
 
 .footer-copyright {
-    background-color: darkgrey;
+    outline: 1px dashed;
     float: right;
     width: 400px;
     font-size: 0;
@@ -191,4 +195,92 @@ input.btn {
 
 .text-center {
     text-align: center;
+}
+
+.choose-form {
+    padding-top: 1px;
+    padding-bottom: 1px; 
+}
+
+.hotels {
+    padding-top: 1px;
+    padding-bottom: 1px; 
+}
+
+.infrastructure {
+    width: 20%;
+    float: left;
+}
+
+.living-type {
+    width: 20%;
+    float: left;
+}
+
+.cost {
+    width: 40%;
+    float: right;
+}
+
+input.btn-catalog {
+    display: block;
+    width: 133px;
+    height: 32px;
+    margin: 22px auto;
+}
+
+.sorting-form {
+    font-size: 0px; 
+}
+
+.sorting-found {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    font-size: 14px;
+    margin: 0;
+}
+
+.sorting-variant {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    font-size: 14px; 
+}
+
+.sorting-arrow {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    font-size: 14px; 
+}
+
+.hotels {
+    font-size: 0px; 
+}
+
+.hotel-photo {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    
+}
+
+.hotel-info h2 {
+    margin: 0;
+}
+
+.hotel-info {
+    display: inline-block;
+    width: ;
+    vertical-align: top;
+    font-size: 14px;
+    margin: 0;
+}
+
+.hotel-raiting {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    font-size: 14px; 
 }
