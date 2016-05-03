@@ -28,13 +28,19 @@ ul {
     margin: 0;
 }
 
+li {
+    float: left;
+    width: 50%;
+    
+}
+
 .left-nav {
-    width: 20%;
+    width: 40%;
     float: left;
 }
 
 .right-nav {
-    width: 20%;
+    width: 40%;
     float: right;
 }
 
@@ -164,7 +170,7 @@ label {
 
 .footer-copyright {
     outline: 1px dashed;
-    float: right;
+    float: left;
     width: 400px;
     font-size: 0;
     height: 120px;
@@ -179,6 +185,7 @@ label {
 label {
     display: block;
     height: 40px;
+    width: auto;
 }
 
 input.btn {
@@ -231,39 +238,51 @@ input.btn-catalog {
 }
 
 .sorting-form {
-    font-size: 0px; 
+     
 }
 
 .sorting-found {
-    display: inline-block;
-    width: 20%;
-    vertical-align: top;
-    font-size: 14px;
-    margin: 0;
+    float: left;
+    width: 20%;    
+}
+
+p.sorting-found {
+    margin: 0;    
 }
 
 .sorting-variant {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-    font-size: 14px; 
+    float: left;
+    width: 60%;
+    font-size: 0;
+}
+
+.sorting-variant span {    
+    font-size: 14px;
+}
+
+.sorting-variant a {    
+    font-size: 14px;
 }
 
 .sorting-arrow {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-    font-size: 14px; 
+    float: right;
+    width: 20%;
+    font-size: 0;
+    
+}
+
+.sorting-arrow a {    
+    font-size: 14px;
+    
 }
 
 .hotels {
-    font-size: 0px; 
+    font-size: ; 
 }
 
 .hotel-photo {
-    display: inline-block;
-    vertical-align: top;
-    font-size: 14px;
+    float: left;
+    width: auto;
     
 }
 
@@ -272,16 +291,15 @@ input.btn-catalog {
 }
 
 .hotel-info {
-    display: inline-block;
-    width: ;
-    vertical-align: top;
-    font-size: 14px;
-    margin: 0;
+    float: left;
+    width: 60%;
 }
 
 .hotel-raiting {
-    display: inline-block;
+    float: right;
     width: 20%;
-    vertical-align: top;
-    font-size: 14px; 
+}
+
+* {
+    outline: 1px dashed red;
 }
