@@ -53,6 +53,7 @@ ul {
 }
 
 .container {
+   padding: 0 6%;    
    position: relative;    
    outline: 1px dashed; 
 /*   padding: 0 6%;        */
